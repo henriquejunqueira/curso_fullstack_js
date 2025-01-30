@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Validação de Formulário</title>
+  </head>
+  <body>
+    <h1>Encontre no Google</h1>
+    <!-- <form action="https://www.google.com/search">
+      <label for="q">O que deseja pesquisar?</label> -->
+    <!-- Required deixa o campo obrigatório -->
+    <!-- <input
+        type="text"
+        id="q"
+        name="q"
+        placeholder="Nasa, SpaceX..."
+        required
+      /> -->
+
+    <!-- type="email" obriga a ser digitado um email no campo -->
+    <!-- <input
+        type="email"
+        id="q"
+        name="q"
+        placeholder="Nasa, SpaceX..."
+        required
+      /> -->
+
+    <!-- Campo do tipo numérico (só aceita números). Min define o número mínimo para ser digitado, 
+       max define o número máximo para ser digitado -->
+    <!-- <input
+        type="number"
+        id="q"
+        name="q"
+        placeholder="Nasa, SpaceX..."
+        min="10"
+        max="12"
+        required
+      /> -->
+    <!-- <input type="submit" value="Pesquisar" />
+    </form> -->
+
+    <!-- Autocomplete exibe a opção de completar campos se o autocomplete="" estiver "on"  -->
+    <!-- <form action="/action_page.php" autocomplete="on">
+      First name: <input type="text" name="fname" /><br />
+      Last name: <input type="text" name="lname" /><br />
+      E-mail: <input type="email" name="email" autocomplete="off" /><br />
+      <input type="submit" />
+    </form> -->
+
+    <!-- datalist cria uma lista de dados para serem exibidos no input e de acordo com a
+    letra digitada são exibidos os valores que contém a letra no datalist -->
+    <input list="browsers" />
+
+    <datalist id="browsers">
+      <option value="Internet Explorer" />
+      <option value="Firefox" />
+      <option value="Chrome" />
+      <option value="Opera" />
+      <option value="Safari" />
+    </datalist>
+  </body>
+</html>
