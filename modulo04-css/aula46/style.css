@@ -1,0 +1,21 @@
+body {
+  /* background-color: grey; */
+  background-image: url('./imagem.jpg'); /* Define a imagem de fundo */
+  background-repeat: no-repeat; /* Define que a imagem não se repita */
+  background-size: cover; /* Define que a imagem vai se ajustar a um tamanho de capa */
+}
+
+h1 {
+  color: purple;
+  /* background-color: grey; */
+
+  /* Definindo bordas */
+  /* border-color: yellow; Define a cor da borda */
+  /* border-width: 2px; Define a largura da borda */
+  /* border-style: solid; Define o estilo da borda */
+  border: 2px dashed orange; /* Define todas as propriedades principais de borda */
+}
+
+li {
+  color: green;
+}
