@@ -1,0 +1,33 @@
+/* *{
+    border: 2px solid;    
+} */
+
+/* Estiliza todas as tags <a> dentro de uma tag <li> */
+/* li a {
+  color: red;
+} */
+
+/* Estiliza as tags <a> que forem filhas da tag <li> */
+/* li > a {
+  color: red;
+} */
+
+/* Estiliza toda tag <h4> que vier logo após uma tag <h1> */
+h1 + h4 {
+  border: 4px dashed;
+}
+
+/* Estiliza toda tag <a> que tiver o atributo href='/recibo' */
+a[href='/recibo'] {
+  color: orange;
+}
+
+/* Estiliza todas as segundas tags <li> dentro de uma lista */
+/* li:nth-of-type(2) {
+  color: purple;
+} */
+
+/* Estiliza todas as tags <li> de número ímpar dentro de uma lista */
+li:nth-of-type(odd) {
+  color: green;
+}
