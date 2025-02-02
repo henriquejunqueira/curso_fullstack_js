@@ -1,0 +1,26 @@
+:root {
+  --amarelo: #f1c40f;
+  --azul: #2c3e50;
+  --vermelho: #e74c3c;
+  --preto: #000000;
+  --branco: #ffffff;
+}
+
+body {
+  background-color: var(--azul);
+  color: var(--branco);
+}
+
+div > h3 {
+  color: var(--amarelo);
+}
+
+h2 {
+  border: 2px solid var(--preto);
+  background-color: var(--amarelo);
+  color: var(--preto);
+}
+
+.aula-astronomia {
+  color: var(--vermelho);
+}
