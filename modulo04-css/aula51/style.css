@@ -1,0 +1,18 @@
+/* Herança - adiciona a cor azul em todos os elementos filhos da div */
+/* div {
+  color: blue;
+} */
+
+/* Burlando a herança do estilo especificando que uma tag específica não vai manter o estilo do pai */
+/* div ul li{
+  color: red;
+} */
+
+/* Inherit define que o atributo é herdado do pai */
+div {
+  border: 2px solid;
+}
+
+div ul {
+  border: inherit; /* herda o estilo border: 2px solid; da div pai */
+}
