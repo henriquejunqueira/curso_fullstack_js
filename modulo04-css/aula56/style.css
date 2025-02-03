@@ -1,0 +1,26 @@
+p {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2;
+}
+
+h1 {
+  font-family: 'Geostar', cursive;
+
+  /* Define o espaçamento ao redor do elemento*/
+  /* margin-top: 20px; */ /* Espaçamento superior fora do elemento */
+  /* margin-top: 40px; */
+  /* margin-left: 30px; */
+  /* margin-bottom: 100px; */
+  /* margin: 45px 100px 200px 28px; */ /* Espaçamento em todos os lados fora do elemento sendo no sentido horário (top, right, bottom, left) */
+  margin: 45px auto 200px auto; /* O espaçamento auto define um espaço automático */
+
+  /* width: 50%; */ /* Define a largura do elemento em porcentagem (podendo ser em %, px, etc */
+  width: 15%;
+
+  border: 2px solid; /* Cria uma borda sólida em volta do elemento */
+
+  /* padding: 10px; */ /* Define um espaçamento dentro do elemento */
+  padding: 10px 20px 20px 10px; /* Espaçamento em todos os lados dentro do elemento sendo no sentido horário (top, right, bottom, left) */
+}
