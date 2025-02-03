@@ -1,0 +1,33 @@
+h1 {
+  /* Define a posição do texto */
+  /* text-align: center; */
+  text-align: right;
+
+  /* Define o tipo de decoração do texto */
+  /* text-decoration: underline; */ /* Texto com sublinhado */
+  text-decoration: line-through; /* Linha cortando o texto */
+}
+
+p {
+  /* Define otipo de fonte */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  /* font-family: cursive; */
+  /* font-family: fantasy; */
+  /* font-family: monospace; */
+  font-family: Arial;
+
+  /* Define o tamanho da fonte */
+  /* font-size: 80px; */
+  font-size: 20px;
+
+  /* Define o peso da fonte */
+  /* font-weight: bold; */
+  /* font-weight: 600; */
+  /* font-weight: 500; */
+  /* font-weight: 400; */
+
+  /* Define a altura das linhas */
+  /* line-height: 1.5; */
+  /* line-height: 3; */
+  line-height: 2;
+}
