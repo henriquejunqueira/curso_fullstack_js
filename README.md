@@ -5,3 +5,4 @@
 - Módulo 03 - HTML;
 - Módulo 04 - CSS;
 - Módulo 05 - Bulma Framework;
+- Modulo6 - Primeiros passos (Javascript + Lógica de programação)
